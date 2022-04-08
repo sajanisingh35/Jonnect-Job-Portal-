@@ -1,0 +1,38 @@
+.about {
+  margin: 0;
+  padding: 5rem;
+  background-color: whitesmoke;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: 38px;
+  font-family: "sans-serif";
+  padding-bottom: 2rem;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+.about-image {
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.img {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  border-radius: 50%;
+}
+
+.img img {
+  width: 400px;
+  height: 400px;
+}

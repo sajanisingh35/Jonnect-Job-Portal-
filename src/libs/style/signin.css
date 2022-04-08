@@ -1,0 +1,94 @@
+.sign-in-wrapper {
+  height: 87vh;
+  width: 100vw;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-wrapper form {
+  height: fit-content;
+}
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.signin-title {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.signin-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+.signin-details .signin-form input {
+  width: 100%;
+}
+.signin-details .signin-formm input[type="text"],
+.signin-input {
+  width: 100%;
+  padding: 10px;
+  background-color: #eff;
+  appearance: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.signin-details .signin-form input[type="password"] {
+  padding: 10px;
+  background-color: #eff;
+  appearance: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+}
+
+.signin-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form input[type="submit"] {
+  background-color: #256ce1; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 5px #666;
+  cursor: pointer;
+}
+
+.form form div input[type="submit"]:hover {
+  color: #256ce1;
+  background-color: white;
+  border: #256ce1;
+}
+
+.sign-in-btn {
+  display: flex;
+  justify-content: right;
+}

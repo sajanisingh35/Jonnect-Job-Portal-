@@ -1,0 +1,21 @@
+.easiest__main {
+  position: relative;
+}
+
+.main {
+  margin: 0;
+  padding: 5rem;
+  background-color: whitesmoke;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.easiest__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.easiest__title {
+  font-weight: 500;
+  font-size: 38px;
+  font-family: "sans-serif";
+  padding-bottom: 2rem;
+  float: center;
+}
